@@ -9,9 +9,29 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "flowbite": "^3.1.2"
-  }
+    "cookie-parser": "^1.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "flowbite": "^3.1.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiDevlop/landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiDevlop/landing/issues"
+  },
+  "homepage": "https://github.com/MatiDevlop/landing#readme"
 }
