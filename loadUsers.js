@@ -1,6 +1,15 @@
 // loadUsers.js
 import ExcelJS from 'exceljs';
 
+/**
+ * Lee el archivo 'members.xlsx' y retorna un arreglo de usuarios.
+ * Extrae los datos de la hoja 'Miembros' y mapea los campos relevantes.
+ *
+ * @async
+ * @function
+ * @returns {Promise<Array<{matricula: number, nombre: string, correo: string, rol: string}>>} Promesa que resuelve con un arreglo de usuarios.
+ * @throws {Error} Si la hoja 'Miembros' no existe en el archivo.
+ */
 export default async function loadUsers() {
   // Leer el workbook
   const workbook = new ExcelJS.Workbook();
